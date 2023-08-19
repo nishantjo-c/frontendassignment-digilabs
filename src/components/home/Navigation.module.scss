@@ -1,0 +1,57 @@
+.navigationbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1.5px solid rgba(white, 30%);
+  padding: 2rem 0 2rem 0;
+  
+  // logo
+  &__logo{
+    // background-color: red;
+    flex-grow: 1;
+    text-align: center;
+    &_icon{
+
+    }
+  }
+  // nav items
+  &__navitems{
+    // background-color: green;
+    flex-grow: 2.5;
+    
+    display: flex;
+    
+    &_item{
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 1);
+      &:not(:last-child){
+        margin-right: 5rem;
+      }
+      &:hover{
+        color: rgba(255, 255, 255, .5);
+        cursor: pointer;
+      }
+    }
+  }
+  // nav buttons
+  &__buttons{
+    // background-color: blue;
+    flex-grow: 1;
+    &_btn{
+      background-color: transparent;
+      color: white;
+      font-weight: 600;
+      &:hover{
+        color: rgba(white, .5);
+      }
+    }
+    &_signup{
+      background-color: rgba(67, 126, 247, 1);
+      padding: 1rem;
+      margin-left: 2rem;
+      border-radius: .5rem;
+    }
+    
+  }
+}
