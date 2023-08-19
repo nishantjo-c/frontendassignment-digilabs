@@ -1,0 +1,90 @@
+.body{
+  display: flex;
+  height: 88.5vh;
+  
+  &__about{
+    // background-color: aquamarine;
+    flex: 1;
+    &_content{
+      display: flex;
+      flex-direction: column;
+      margin: 4rem 6rem 4rem 9rem;
+      // background-color: aliceblue;
+      height: 80%;
+      &_title{
+        font-size: 5.2rem;
+        color: rgba(255, 255, 255, 1);
+        padding: 8rem 2rem 1rem 0;
+      }
+      &_subtitle{
+        font-size: 1.8rem;
+        color: rgba(177, 204, 251, 1);
+        padding: 2rem 2rem 1rem 0;
+      }
+      &_btn{
+        width: 10rem;
+        color: white;
+        background-color: rgba(67, 126, 247, 1);
+        padding: 1rem;
+        border-radius: .5rem;
+        &:hover{
+          color: rgba(white, .5);
+        }
+      }
+      &_footer{
+        
+        margin-top: 4rem;
+        .text{
+          color: rgba(255, 255, 255, 1);
+          font-size: 1.4rem;
+        }
+        &_icons{
+          margin-top: 1rem;
+        .icon{
+          width: 11.2rem;
+          height: 2.8rem;
+        }
+        }
+      }
+    }
+  }
+
+  &__design{
+    // background-color: aliceblue;
+    position: relative;
+    .background{
+      background-color: rgba(57, 113, 231, 1);
+      height: 88.5vh;
+      width: 48.8rem;
+      position: absolute;
+      right: 0;
+    }
+    flex: 1;
+    &_container{
+      height: 56rem;
+      width: 44.8rem;
+      // background-color: black;
+      z-index: 100;
+      position: absolute;
+      left: -11.2rem;
+      top: 3.2rem;
+
+      display: flex;
+
+      &_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .lefticons{
+          width: 11.2rem;
+        }
+      }
+      &_middle{
+
+      }
+      &_right{
+
+      }
+    }
+  }
+}

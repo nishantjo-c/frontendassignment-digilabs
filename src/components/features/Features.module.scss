@@ -1,0 +1,73 @@
+.container{
+  height: 91vh;
+  margin-top: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__header{
+    width: 128rem;
+    padding: 0 3.2rem;
+    margin-bottom: 6.4rem;
+    // background-color: aqua;
+    &_title{
+      text-align: center;
+      color: rgba(39, 45, 55, 1);
+      font-size: 3.2rem;
+      font-weight: 700;
+      line-height: 4rem;
+      margin-bottom: 1.6rem;
+    }
+    &_subtitle{
+      text-align: center;
+      color: rgba(95, 109, 126, 1);
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+  &__body{
+    width: 128rem;
+    &_content{
+      // background-color: aqua;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &:not(:last-child){
+        margin-bottom: 6.4rem;
+      }
+      &_card{
+        width: 38.4rem;
+        height: 18.2rem;
+        .icon{
+
+        }
+        .cardtitle{
+          color: rgba(39, 45, 55, 1);
+          font-size: 2.2rem;
+          font-weight: 600;
+          line-height: 3rem;
+
+        }
+        .cardsubtitle{
+          color: rgba(95, 109, 126, 1);
+          font-size: 1.6rem;
+          font-weight: 400;
+          line-height: 2.4rem;
+
+        }
+        
+      }
+    }
+  }
+}
+.btn{
+  margin-top: 1rem;
+  background-color: transparent;         
+  color: rgba(67, 126, 247, 1);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+.icon{
+  width: 3.2rem;
+}
