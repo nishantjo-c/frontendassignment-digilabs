@@ -1,12 +1,12 @@
 import featuresSCSS from "./Features.module.scss";
 
 // icons
-import card1icon from "../../../public/card1icon.svg";
-import card2icon from "../../../public/card2icon.svg";
-import card3icon from "../../../public/card3icon.svg";
-import card4icon from "../../../public/card4icon.svg";
-import card5icon from "../../../public/card5icon.svg";
-import card6icon from "../../../public/card6icon.svg";
+import card1icon from "../../assets/card1icon.svg";
+import card2icon from "../../assets/card2icon.svg";
+import card3icon from "../../assets/card3icon.svg";
+import card4icon from "../../assets/card4icon.svg";
+import card5icon from "../../assets/card5icon.svg";
+import card6icon from "../../assets/card6icon.svg";
 
 export default function Features() {
   return (

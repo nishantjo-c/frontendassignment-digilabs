@@ -1,4 +1,4 @@
-import logo from "../../../public/CompanyLogo.svg";
+import logo from "../../assets/CompanyLogo.svg";
 import navSCSS from "./Navigation.module.scss";
 
 export default function Navigation() {

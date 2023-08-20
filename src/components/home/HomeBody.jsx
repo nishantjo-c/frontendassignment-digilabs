@@ -1,21 +1,21 @@
-import gitlabicon from "../../../public/gitlab.svg";
-import slackicon from "../../../public/slack.svg";
-import netflixicon from "../../../public/netflix.svg";
-import paypalicon from "../../../public/paypal.svg";
+import gitlabicon from "../../assets/gitlab.svg";
+import slackicon from "../../assets/slack.svg";
+import netflixicon from "../../assets/netflix.svg";
+import paypalicon from "../../assets/paypal.svg";
 
 // right side icons
-import circleicon from "../../../public/circle.svg";
-import twotriangleicon from "../../../public/twotriangles.svg";
-import circle2icon from "../../../public/circle2.svg";
+import circleicon from "../../assets/circle.svg";
+import circle2icon from "../../assets/circle2.svg";
+import twotriangleicon from "../../assets/twotriangles.svg";
 // middle icons
-import shape1 from "../../../public/shape1.svg";
-import image from "../../../public/image.svg";
-import shape2 from "../../../public/shape2.svg";
-import shape3 from "../../../public/shape3.svg";
+import shape1 from "../../assets/shape1.svg";
+import image from "../../assets/image.svg";
+import shape2 from "../../assets/shape2.svg";
+import shape3 from "../../assets/shape3.svg";
 // right icons
-import righttop from "../../../public/righttop.svg";
-import rightmiddle from "../../../public/rightmiddle.svg";
-import rightbottom from "../../../public/rightbottom.svg";
+import righttop from "../../assets/righttop.svg";
+import rightmiddle from "../../assets/rightmiddle.svg";
+import rightbottom from "../../assets/rightbottom.svg";
 
 import homebodySCSS from "./HomeBody.module.scss";
 

@@ -1,11 +1,11 @@
 import blogSCSS from "./Blogs.module.scss";
 // icons and images
-import image1 from "../../../public/image1.svg";
-import image2 from "../../../public/image2.svg";
-import image3 from "../../../public/image3.svg";
-import andrewCEO from "../../../public/andrewCEO.svg";
-import andrewUI from "../../../public/andrewUI.svg";
-import davidUX from "../../../public/davidUX.svg";
+import image1 from "../../assets/image1.svg";
+import image2 from "../../assets/image2.svg";
+import image3 from "../../assets/image3.svg";
+import andrewCEO from "../../assets/andrewCEO.svg";
+import andrewUI from "../../assets/andrewUI.svg";
+import davidUX from "../../assets/davidUX.svg";
 import Investors from "./Investors";
 
 export default function Blogs() {

@@ -1,12 +1,12 @@
 import investorsSCSS from "./Investors.module.scss";
 
 // icons
-import theverge from "../../../public/theverge.svg";
-import slack from "../../../public/slack.svg";
-import google from "../../../public/google.svg";
-import paypal from "../../../public/paypal.svg";
-import pinterst from "../../../public/pinterest.svg";
-import mallchimp from "../../../public/mallchimp.svg";
+import theverge from "../../assets/theverge.svg";
+import slack from "../../assets/slack.svg";
+import google from "../../assets/google.svg";
+import paypal from "../../assets/paypal.svg";
+import pinterst from "../../assets/pinterest.svg";
+import mallchimp from "../../assets/mallchimp.svg";
 import Footer from "../footer/Footer";
 
 export default function Investors() {

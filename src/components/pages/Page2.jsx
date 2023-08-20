@@ -1,8 +1,8 @@
 import page2scss from "./Page2.module.scss";
-import photo2 from "../../../public/photo2.svg";
-import topicon from "../../../public/topicon.svg";
-import middleicon from "../../../public/middleicon.svg";
-import bottomicon from "../../../public/bottomicon.svg";
+import photo2 from "../../assets/photo2.svg";
+import topicon from "../../assets/topicon.svg";
+import middleicon from "../../assets/middleicon.svg";
+import bottomicon from "../../assets/bottomicon.svg";
 import Quote from "./Quote";
 
 export default function Page2() {

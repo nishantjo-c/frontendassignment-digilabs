@@ -1,8 +1,8 @@
 import page1scss from "./Page1.module.scss";
-import topicon from "../../../public/topicon.svg";
-import middleicon from "../../../public/middleicon.svg";
-import bottomicon from "../../../public/bottomicon.svg";
-import dikkat from "../../../public/dikkat.svg";
+import topicon from "../../assets/topicon.svg";
+import middleicon from "../../assets/middleicon.svg";
+import bottomicon from "../../assets/bottomicon.svg";
+import dikkat from "../../assets/dikkat.svg";
 import Page2 from "./Page2";
 
 export default function Page1() {

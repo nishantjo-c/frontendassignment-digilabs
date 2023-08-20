@@ -1,12 +1,12 @@
 import footerSCSS from "./Footer.module.scss";
 
 // icons
-import checkbox from "../../../public/checkbox.svg";
-import companylogo from "../../../public/companylogo.svg";
-import facebook from "../../../public/facebook.svg";
-import googlewhite from "../../../public/googlewhite.svg";
-import apple from "../../../public/apple.svg";
-import instagram from "../../../public/instagram.svg";
+import checkbox from "../../assets/checkbox.svg";
+import companylogo from "../../assets/companylogo.svg";
+import facebook from "../../assets/facebook.svg";
+import googlewhite from "../../assets/googlewhite.svg";
+import apple from "../../assets/apple.svg";
+import instagram from "../../assets/instagram.svg";
 
 export default function Footer() {
   return (

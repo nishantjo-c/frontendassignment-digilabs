@@ -1,8 +1,8 @@
 import quoteSCSS from "./Quote.module.scss";
 
 // icons
-import logodark from "../../../public/companylogodark.svg";
-import ceoimage from "../../../public/ceoimage.svg";
+import logodark from "../../assets/companylogodark.svg";
+import ceoimage from "../../assets/ceoimage.svg";
 import Blogs from "./Blogs";
 
 export default function Quote() {
