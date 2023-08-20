@@ -10,9 +10,11 @@
 
 .hamburger_nav{
   visibility: hidden;
+  // position: relative;
   
   @include respond(tab-port){
     visibility: visible;
+    // position: relative;
   }
 }
 
@@ -26,7 +28,7 @@
   width: 3.5rem;
   height: 3rem;
   position: fixed;
-  top: 20px;
+  top: 2rem;
   // left: 20px;
   right: 2rem;
   z-index: 1000;
@@ -35,7 +37,7 @@
 
 .bar {
   display: block;
-  width: 100%;
+  // width: 100%;
   height: 4px;
   margin: 6px 0;
   background-color: rgba(255, 255, 255, 1);
@@ -58,8 +60,8 @@
   position: fixed;
   top: 0;
   // left: -250px;
-  right: -250px;
-  width: 250px;
+  right: -100%;
+  width: 50%;
   height: 100%;
   background-color: rgba(67, 126, 247, 1);
   transition: 0.3s;
@@ -97,10 +99,10 @@
   padding: 2rem 0 2rem 0;
   
   @include respond(tab-port){
-    // width: 50%;
-    visibility: collapse;
+    width: 0;
+    visibility: hidden;
     padding: 0;
-
+    
   }
   @include respond(phone){
     
@@ -120,6 +122,9 @@
     flex-grow: 2.5;
     
     display: flex;
+    @include respond(phone){
+      display: none;
+    }
     
     &_item{
       font-size: 1.5rem;
@@ -127,6 +132,10 @@
       color: rgba(255, 255, 255, 1);
       &:not(:last-child){
         margin-right: 5rem;
+        @include respond(phone){
+          margin-right: 0;
+          font-weight: 0;
+        }
       }
       &:hover{
         color: rgba(255, 255, 255, .5);
@@ -138,11 +147,20 @@
   &__buttons{
     // background-color: blue;
     flex-grow: 1;
+    @include respond(phone){
+      flex-grow: 0;
+      visibility: collapse;
+
+    }
     &_btn{
       background-color: transparent;
       color: white;
       font-weight: 600;
       cursor: pointer;
+      @include respond(phone){
+        visibility: collapse;
+        
+      }
       &:hover{
         color: rgba(white, .5);
       }
@@ -155,6 +173,10 @@
       @include respond(tab-port){
         margin-left: 0;
         padding: 0;
+      }
+      @include respond(phone){
+        visibility: collapse;
+
       }
     }
     
