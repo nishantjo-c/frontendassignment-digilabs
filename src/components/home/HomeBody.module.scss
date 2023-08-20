@@ -33,6 +33,9 @@
         margin: 4rem 0 4rem 2rem;
         // padding: 2rem 4rem;
       }
+      @include respond(phone){
+        margin: 4rem 0;
+      }
 
       &_title{
         font-size: 5.2rem;
@@ -47,6 +50,7 @@
 
         @include respond(phone){
           font-size: 3.6rem;
+          padding: 12rem 1rem 1rem 1rem;
         }
         
       }
@@ -54,6 +58,10 @@
         font-size: 1.8rem;
         color: rgba(177, 204, 251, 1);
         padding: 2rem 2rem 1rem 0;
+        
+        @include respond(phone){
+          padding: 2rem 0 1rem 0;
+        }
       }
       &_btn{
         width: 10rem;
