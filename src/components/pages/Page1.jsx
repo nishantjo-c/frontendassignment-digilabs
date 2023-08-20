@@ -2,7 +2,7 @@ import page1scss from "./Page1.module.scss";
 import topicon from "../../../public/topicon.svg";
 import middleicon from "../../../public/middleicon.svg";
 import bottomicon from "../../../public/bottomicon.svg";
-import photo1 from "../../../public/photo1.svg";
+import dikkat from "../../../public/dikkat.svg";
 import Page2 from "./Page2";
 
 export default function Page1() {
@@ -56,7 +56,7 @@ export default function Page1() {
           </div>
           <div className={page1scss.container__body_right}>
             <img
-              src={photo1}
+              src={dikkat}
               alt="photo"
               className={page1scss.container__body_right_img}
             />
