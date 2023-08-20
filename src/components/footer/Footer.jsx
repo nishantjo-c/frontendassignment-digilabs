@@ -2,7 +2,7 @@ import footerSCSS from "./Footer.module.scss";
 
 // icons
 import checkbox from "../../assets/checkbox.svg";
-import companylogo from "../../assets/companylogo.svg";
+import companylogo from "../../assets/CompanyLogo.svg";
 import facebook from "../../assets/facebook.svg";
 import googlewhite from "../../assets/googlewhite.svg";
 import apple from "../../assets/apple.svg";
