@@ -115,7 +115,7 @@
         background-size: cover;
 
         @include respond(tab-port){
-          content: url('../../../public/photo2.svg');
+          content: url('../../assets/photo2.svg');
         }
 
         @include respond(phone){
