@@ -2,7 +2,7 @@
 
 .container{
   // height: 91vh;
-  // margin-top: 6.4rem;
+  padding-top: 6.4rem;
   display: flex;
   flex-direction: column;
   // justify-content: center;
@@ -21,6 +21,7 @@
       font-weight: 700;
       line-height: 4rem;
       margin-bottom: 1.6rem;
+      padding: 1rem;
     }
     &_subtitle{
       text-align: center;
@@ -40,7 +41,7 @@
   &__body{
     // background-color: aquamarine;
     // width: 128rem;
-    width: 80%;
+    width: 90%;
     display: flex;
     
     
@@ -62,6 +63,9 @@
         align-items: center;
         // justify-content: center;
       }
+      @include respond(phone){
+        align-items: start;
+      }
 
       &_image{
         &_img{
@@ -80,7 +84,11 @@
         line-height: 3rem;
         
         @include respond(tab-port){
-          width: 55%;
+          // width: 55%;
+          padding: 1rem;
+        }
+        @include respond(phone){
+          font-size: 2rem;
         }
       }
       &_subtitle{
@@ -89,7 +97,11 @@
         font-weight: 400;
         line-height: 2.4rem;
         @include respond(tab-port){
-          width: 55%;
+          // width: 55%;
+          padding: 1rem;
+        }
+        @include respond(phone){
+          font-size: 1.6rem;
         }
       }
 

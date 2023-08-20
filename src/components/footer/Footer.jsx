@@ -67,8 +67,8 @@ export default function Footer() {
               alt="logo"
               className={footerSCSS.bottom__columns_col_logo}
             />
-            <p className={footerSCSS.bottom__columns_col_text}>
-              Generate outside the box thinking with the possibility to targtet
+            <p className={footerSCSS.bottom__columns_col_text1}>
+              Generate outside the box thinking with the possibility to target
               the low.
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function Footer() {
             <p className={footerSCSS.bottom__columns_col_title}>
               Get Email Notifications
             </p>
-            <p className={footerSCSS.bottom__columns_col_text}>
+            <p className={footerSCSS.bottom__columns_col_text1}>
               Generate outside the box thinking with the possibility to targtet
               the low
             </p>

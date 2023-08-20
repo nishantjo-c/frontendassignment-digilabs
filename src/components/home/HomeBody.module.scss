@@ -30,7 +30,7 @@
       // background-color: aliceblue;
       // height: 80%;
       @include respond(tab-port){
-        margin: 4rem 0 4rem 0;
+        margin: 4rem 0 4rem 2rem;
         // padding: 2rem 4rem;
       }
 
@@ -107,7 +107,7 @@
       // width: 85%;
       @include respond(tab-port){
         position: relative;
-      
+        margin-top: 3rem;
       }
       @include respond(phone){
   
