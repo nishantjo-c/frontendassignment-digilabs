@@ -22,6 +22,7 @@ import homebodySCSS from "./HomeBody.module.scss";
 export default function HomeBody() {
   return (
     <div className={homebodySCSS.body}>
+      {/* left section */}
       <div className={homebodySCSS.body__about}>
         <div className={homebodySCSS.body__about_content}>
           <h2 className={homebodySCSS.body__about_content_title}>
@@ -61,49 +62,53 @@ export default function HomeBody() {
       {/* Right section */}
       <div className={homebodySCSS.body__design}>
         {/* this div is just for the different backgroud color in right */}
-        <div className={homebodySCSS.background}>
-          <div className={homebodySCSS.body__design_container}>
-            {/* left */}
-            <div className={homebodySCSS.body__design_container_left}>
-              <div className={homebodySCSS.lefticons}>
-                <img src={circleicon} alt="circle" />
-              </div>
-              <div className={homebodySCSS.lefticons}>
-                <img src={twotriangleicon} alt="icon" />
-              </div>
-              <div className={homebodySCSS.lefticons}>
-                <img src={circle2icon} alt="icon" />
-              </div>
+        <div className={homebodySCSS.background}></div>
+        <div className={homebodySCSS.body__design_container}>
+          {/* left */}
+          <div className={homebodySCSS.body__design_container_left}>
+            <div className={homebodySCSS.lefticons}>
+              <img src={circleicon} alt="circle" className={homebodySCSS.svg} />
             </div>
-            {/* middle */}
-            <div className={homebodySCSS.body__design_container_middle}>
-              <div className={homebodySCSS.middleicons}>
-                <img src={shape1} alt="circle" />
-              </div>
-              <div className={homebodySCSS.middleicons}>
-                <img src={image} alt="icon" />
-              </div>
-              <div className={homebodySCSS.middleicons}>
-                <img src={shape2} alt="icon" />
-              </div>
-              <div className={homebodySCSS.middleicons}>
-                <img src={shape3} alt="icon" />
-              </div>
+            <div className={homebodySCSS.lefticons}>
+              <img
+                src={twotriangleicon}
+                alt="icon"
+                className={homebodySCSS.svg}
+              />
             </div>
-            {/* bottom */}
-            <div className={homebodySCSS.body__design_container_right}>
-              <div className={homebodySCSS.righticons}>
-                <img src={righttop} alt="circle" />
-              </div>
-              <div className={homebodySCSS.lefticons}>
-                <img src={rightmiddle} alt="icon" />
-              </div>
-              <div className={homebodySCSS.lefticons}>
-                <img src={rightbottom} alt="icon" />
-              </div>
+            <div className={homebodySCSS.lefticons}>
+              <img src={circle2icon} alt="icon" className={homebodySCSS.svg} />
+            </div>
+          </div>
+          {/* middle */}
+          <div className={homebodySCSS.body__design_container_middle}>
+            <div className={homebodySCSS.middleicons}>
+              <img src={shape1} alt="circle" className={homebodySCSS.svg} />
+            </div>
+            <div className={homebodySCSS.middleicons}>
+              <img src={image} alt="icon" className={homebodySCSS.svg} />
+            </div>
+            <div className={homebodySCSS.middleicons}>
+              <img src={shape2} alt="icon" className={homebodySCSS.svg} />
+            </div>
+            <div className={homebodySCSS.middleicons}>
+              <img src={shape3} alt="icon" className={homebodySCSS.svg} />
+            </div>
+          </div>
+          {/* bottom */}
+          <div className={homebodySCSS.body__design_container_right}>
+            <div className={homebodySCSS.righticons}>
+              <img src={righttop} alt="circle" className={homebodySCSS.svg} />
+            </div>
+            <div className={homebodySCSS.lefticons}>
+              <img src={rightmiddle} alt="icon" className={homebodySCSS.svg} />
+            </div>
+            <div className={homebodySCSS.lefticons}>
+              <img src={rightbottom} alt="icon" className={homebodySCSS.svg} />
             </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
     </div>
   );

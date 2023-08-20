@@ -3,6 +3,7 @@ import topicon from "../../../public/topicon.svg";
 import middleicon from "../../../public/middleicon.svg";
 import bottomicon from "../../../public/bottomicon.svg";
 import photo1 from "../../../public/photo1.svg";
+import Page2 from "./Page2";
 
 export default function Page1() {
   return (
@@ -54,10 +55,15 @@ export default function Page1() {
             </div>
           </div>
           <div className={page1scss.container__body_right}>
-            <img src={photo1} alt="photo" />
+            <img
+              src={photo1}
+              alt="photo"
+              className={page1scss.container__body_right_img}
+            />
           </div>
         </div>
       </div>
+      <Page2 />
     </>
   );
 }

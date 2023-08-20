@@ -1,12 +1,15 @@
+@import "../../index.scss";
+
 .container{
-  height: 91vh;
-  margin-top: 6.4rem;
+  // height: 91vh;
+  // margin-top: 6.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(255, 255, 255, 1);
   &__header{
-    width: 128rem;
-    padding: 0 3.2rem;
+    // width: 128rem;
+    // padding: 0 3.2rem;
     margin-bottom: 6.4rem;
     // background-color: aqua;
     &_title{
@@ -26,15 +29,20 @@
     }
   }
   &__body{
-    width: 128rem;
+    // width: 128rem;
     display: flex;
     align-items: center;
     gap: 12.4rem;
-    height: 56rem;
+    // height: 56rem;
+
+    @include respond(tab-port){
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
     &_left{
-      width: 53.2rem;
-      height: 42.4rem;
+      // width: 53.2rem;
+      // height: 42.4rem;
       // background-color: aqua;
       &_content{
         display: flex;
@@ -42,10 +50,13 @@
         align-items: center;
 
         &_card{
-          width: 38.4rem;
+          // width: 38.4rem;
           position: relative;
           &:not(:last-child){
             margin-bottom: 2rem;
+          }
+          @include respond(tab-port){
+            padding: 0 5rem;
           }
           // height: 18.2rem;
           .icon{
@@ -68,10 +79,21 @@
       }
     }
     &_right{
-      width: 56rem;
-      height: 56rem;
+      
+      // width: 40rem;
+      // height: 40rem;
       // background-color: aqua;
-      background-size: cover;
+      &_img{
+        // width: 56rem;
+        // height: 56rem;
+        background-size: cover;
+
+        @include respond(phone){
+          
+          width: 90%;
+          height: 90%;
+        }
+      }
     }
   }
 }
@@ -88,5 +110,7 @@
   position: absolute;
   top: 0;
   left: -5rem;
-  
+  @include respond(tab-port){
+    left: 0;
+  }
 }

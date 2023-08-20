@@ -1,12 +1,16 @@
+@import '../../index.scss';
+
 .container{
-  height: 91vh;
-  margin-top: 6.4rem;
+  // height: 91vh;
+  // margin-top: 6.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+
   &__header{
-    width: 128rem;
-    padding: 0 3.2rem;
+    // width: 128rem;
+    // padding: 0 3.2rem;
     margin-bottom: 6.4rem;
     // background-color: aqua;
     &_title{
@@ -26,18 +30,36 @@
     }
   }
   &__body{
-    width: 128rem;
+    // width: 128rem;
+    @include respond(tab-port){
+      display: flex;
+      align-items: baseline;
+    }
+
+    @include respond(phone){
+      display: flex;
+      flex-direction: column;
+      // align-items: baseline;
+    }
+
     &_content{
       // background-color: aqua;
       display: flex;
       justify-content: space-around;
       align-items: center;
+
+      @include respond(tab-port){
+        display: flex;
+        flex-direction: column;
+      }
+      
       &:not(:last-child){
         margin-bottom: 6.4rem;
       }
       &_card{
-        width: 38.4rem;
+        // width: 38.4rem;
         height: 18.2rem;
+        margin: 2rem;
         .icon{
 
         }
@@ -53,7 +75,7 @@
           font-size: 1.6rem;
           font-weight: 400;
           line-height: 2.4rem;
-
+          
         }
         
       }
